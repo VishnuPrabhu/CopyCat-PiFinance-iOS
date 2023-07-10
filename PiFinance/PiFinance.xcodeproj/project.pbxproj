@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278810132A5C5D9F00B60975 /* PiFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278810122A5C5D9F00B60975 /* PiFinanceApp.swift */; };
+		278810152A5C5D9F00B60975 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278810142A5C5D9F00B60975 /* ContentView.swift */; };
+		278810172A5C5D9F00B60975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278810162A5C5D9F00B60975 /* Assets.xcassets */; };
+		2788101A2A5C5D9F00B60975 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278810192A5C5D9F00B60975 /* Preview Assets.xcassets */; };
+		278810242A5C5D9F00B60975 /* PiFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278810232A5C5D9F00B60975 /* PiFinanceTests.swift */; };
+		2788102E2A5C5D9F00B60975 /* PiFinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788102D2A5C5D9F00B60975 /* PiFinanceUITests.swift */; };
+		278810302A5C5D9F00B60975 /* PiFinanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788102F2A5C5D9F00B60975 /* PiFinanceUITestsLaunchTests.swift */; };
+		278810462A5C635300B60975 /* PiModel in Frameworks */ = {isa = PBXBuildFile; productRef = 278810452A5C635300B60975 /* PiModel */; };
+		278810482A5C635300B60975 /* PiUI in Frameworks */ = {isa = PBXBuildFile; productRef = 278810472A5C635300B60975 /* PiUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		278810202A5C5D9F00B60975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278810072A5C5D9F00B60975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2788100E2A5C5D9F00B60975;
+			remoteInfo = PiFinance;
+		};
+		2788102A2A5C5D9F00B60975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278810072A5C5D9F00B60975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2788100E2A5C5D9F00B60975;
+			remoteInfo = PiFinance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2788100F2A5C5D9F00B60975 /* PiFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278810122A5C5D9F00B60975 /* PiFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceApp.swift; sourceTree = "<group>"; };
+		278810142A5C5D9F00B60975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		278810162A5C5D9F00B60975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		278810192A5C5D9F00B60975 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2788101F2A5C5D9F00B60975 /* PiFinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		278810232A5C5D9F00B60975 /* PiFinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceTests.swift; sourceTree = "<group>"; };
+		278810292A5C5D9F00B60975 /* PiFinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2788102D2A5C5D9F00B60975 /* PiFinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceUITests.swift; sourceTree = "<group>"; };
+		2788102F2A5C5D9F00B60975 /* PiFinanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2788103D2A5C5DBA00B60975 /* PiUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiUI; path = ../PiUI; sourceTree = "<group>"; };
+		2788103E2A5C5DC700B60975 /* PiModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiModel; path = ../PiModel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2788100C2A5C5D9F00B60975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278810462A5C635300B60975 /* PiModel in Frameworks */,
+				278810482A5C635300B60975 /* PiUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2788101C2A5C5D9F00B60975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278810262A5C5D9F00B60975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278810062A5C5D9F00B60975 = {
+			isa = PBXGroup;
+			children = (
+				2788103C2A5C5DAB00B60975 /* Packages */,
+				278810112A5C5D9F00B60975 /* PiFinance */,
+				278810222A5C5D9F00B60975 /* PiFinanceTests */,
+				2788102C2A5C5D9F00B60975 /* PiFinanceUITests */,
+				278810102A5C5D9F00B60975 /* Products */,
+				2788103F2A5C5EF500B60975 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		278810102A5C5D9F00B60975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2788100F2A5C5D9F00B60975 /* PiFinance.app */,
+				2788101F2A5C5D9F00B60975 /* PiFinanceTests.xctest */,
+				278810292A5C5D9F00B60975 /* PiFinanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278810112A5C5D9F00B60975 /* PiFinance */ = {
+			isa = PBXGroup;
+			children = (
+				278810122A5C5D9F00B60975 /* PiFinanceApp.swift */,
+				278810142A5C5D9F00B60975 /* ContentView.swift */,
+				278810162A5C5D9F00B60975 /* Assets.xcassets */,
+				278810182A5C5D9F00B60975 /* Preview Content */,
+			);
+			path = PiFinance;
+			sourceTree = "<group>";
+		};
+		278810182A5C5D9F00B60975 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				278810192A5C5D9F00B60975 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		278810222A5C5D9F00B60975 /* PiFinanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				278810232A5C5D9F00B60975 /* PiFinanceTests.swift */,
+			);
+			path = PiFinanceTests;
+			sourceTree = "<group>";
+		};
+		2788102C2A5C5D9F00B60975 /* PiFinanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2788102D2A5C5D9F00B60975 /* PiFinanceUITests.swift */,
+				2788102F2A5C5D9F00B60975 /* PiFinanceUITestsLaunchTests.swift */,
+			);
+			path = PiFinanceUITests;
+			sourceTree = "<group>";
+		};
+		2788103C2A5C5DAB00B60975 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2788103E2A5C5DC700B60975 /* PiModel */,
+				2788103D2A5C5DBA00B60975 /* PiUI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		2788103F2A5C5EF500B60975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2788100E2A5C5D9F00B60975 /* PiFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278810332A5C5D9F00B60975 /* Build configuration list for PBXNativeTarget "PiFinance" */;
+			buildPhases = (
+				2788100B2A5C5D9F00B60975 /* Sources */,
+				2788100C2A5C5D9F00B60975 /* Frameworks */,
+				2788100D2A5C5D9F00B60975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiFinance;
+			packageProductDependencies = (
+				278810452A5C635300B60975 /* PiModel */,
+				278810472A5C635300B60975 /* PiUI */,
+			);
+			productName = PiFinance;
+			productReference = 2788100F2A5C5D9F00B60975 /* PiFinance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2788101E2A5C5D9F00B60975 /* PiFinanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278810362A5C5D9F00B60975 /* Build configuration list for PBXNativeTarget "PiFinanceTests" */;
+			buildPhases = (
+				2788101B2A5C5D9F00B60975 /* Sources */,
+				2788101C2A5C5D9F00B60975 /* Frameworks */,
+				2788101D2A5C5D9F00B60975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				278810212A5C5D9F00B60975 /* PBXTargetDependency */,
+			);
+			name = PiFinanceTests;
+			productName = PiFinanceTests;
+			productReference = 2788101F2A5C5D9F00B60975 /* PiFinanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		278810282A5C5D9F00B60975 /* PiFinanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278810392A5C5D9F00B60975 /* Build configuration list for PBXNativeTarget "PiFinanceUITests" */;
+			buildPhases = (
+				278810252A5C5D9F00B60975 /* Sources */,
+				278810262A5C5D9F00B60975 /* Frameworks */,
+				278810272A5C5D9F00B60975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2788102B2A5C5D9F00B60975 /* PBXTargetDependency */,
+			);
+			name = PiFinanceUITests;
+			productName = PiFinanceUITests;
+			productReference = 278810292A5C5D9F00B60975 /* PiFinanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278810072A5C5D9F00B60975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2788100E2A5C5D9F00B60975 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2788101E2A5C5D9F00B60975 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2788100E2A5C5D9F00B60975;
+					};
+					278810282A5C5D9F00B60975 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2788100E2A5C5D9F00B60975;
+					};
+				};
+			};
+			buildConfigurationList = 2788100A2A5C5D9F00B60975 /* Build configuration list for PBXProject "PiFinance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 278810062A5C5D9F00B60975;
+			productRefGroup = 278810102A5C5D9F00B60975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2788100E2A5C5D9F00B60975 /* PiFinance */,
+				2788101E2A5C5D9F00B60975 /* PiFinanceTests */,
+				278810282A5C5D9F00B60975 /* PiFinanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2788100D2A5C5D9F00B60975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2788101A2A5C5D9F00B60975 /* Preview Assets.xcassets in Resources */,
+				278810172A5C5D9F00B60975 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2788101D2A5C5D9F00B60975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278810272A5C5D9F00B60975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2788100B2A5C5D9F00B60975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278810152A5C5D9F00B60975 /* ContentView.swift in Sources */,
+				278810132A5C5D9F00B60975 /* PiFinanceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2788101B2A5C5D9F00B60975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278810242A5C5D9F00B60975 /* PiFinanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278810252A5C5D9F00B60975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278810302A5C5D9F00B60975 /* PiFinanceUITestsLaunchTests.swift in Sources */,
+				2788102E2A5C5D9F00B60975 /* PiFinanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		278810212A5C5D9F00B60975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2788100E2A5C5D9F00B60975 /* PiFinance */;
+			targetProxy = 278810202A5C5D9F00B60975 /* PBXContainerItemProxy */;
+		};
+		2788102B2A5C5D9F00B60975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2788100E2A5C5D9F00B60975 /* PiFinance */;
+			targetProxy = 2788102A2A5C5D9F00B60975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		278810312A5C5D9F00B60975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		278810322A5C5D9F00B60975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278810342A5C5D9F00B60975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PiFinance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techvelai.PiFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		278810352A5C5D9F00B60975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PiFinance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techvelai.PiFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		278810372A5C5D9F00B60975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techvelai.PiFinanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiFinance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiFinance";
+			};
+			name = Debug;
+		};
+		278810382A5C5D9F00B60975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techvelai.PiFinanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiFinance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiFinance";
+			};
+			name = Release;
+		};
+		2788103A2A5C5D9F00B60975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techvelai.PiFinanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiFinance;
+			};
+			name = Debug;
+		};
+		2788103B2A5C5D9F00B60975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techvelai.PiFinanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiFinance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2788100A2A5C5D9F00B60975 /* Build configuration list for PBXProject "PiFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278810312A5C5D9F00B60975 /* Debug */,
+				278810322A5C5D9F00B60975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278810332A5C5D9F00B60975 /* Build configuration list for PBXNativeTarget "PiFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278810342A5C5D9F00B60975 /* Debug */,
+				278810352A5C5D9F00B60975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278810362A5C5D9F00B60975 /* Build configuration list for PBXNativeTarget "PiFinanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278810372A5C5D9F00B60975 /* Debug */,
+				278810382A5C5D9F00B60975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278810392A5C5D9F00B60975 /* Build configuration list for PBXNativeTarget "PiFinanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2788103A2A5C5D9F00B60975 /* Debug */,
+				2788103B2A5C5D9F00B60975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		278810452A5C635300B60975 /* PiModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PiModel;
+		};
+		278810472A5C635300B60975 /* PiUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PiUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 278810072A5C5D9F00B60975 /* Project object */;
+}
