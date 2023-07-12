@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275B8F2D2A5EF6C1001B1B50 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B8F2C2A5EF6C1001B1B50 /* MainScreenView.swift */; };
+		275B8F302A5EF6D1001B1B50 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B8F2F2A5EF6D1001B1B50 /* DashboardView.swift */; };
 		278810132A5C5D9F00B60975 /* PiFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278810122A5C5D9F00B60975 /* PiFinanceApp.swift */; };
 		278810152A5C5D9F00B60975 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278810142A5C5D9F00B60975 /* ContentView.swift */; };
 		278810172A5C5D9F00B60975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278810162A5C5D9F00B60975 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		275B8F2C2A5EF6C1001B1B50 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		275B8F2F2A5EF6D1001B1B50 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		2788100F2A5C5D9F00B60975 /* PiFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		278810122A5C5D9F00B60975 /* PiFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceApp.swift; sourceTree = "<group>"; };
 		278810142A5C5D9F00B60975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		275B8F2B2A5EF6AA001B1B50 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				275B8F2E2A5EF6C4001B1B50 /* Dashboard */,
+				275B8F2C2A5EF6C1001B1B50 /* MainScreenView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		275B8F2E2A5EF6C4001B1B50 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				275B8F2F2A5EF6D1001B1B50 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
 		278810062A5C5D9F00B60975 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +123,7 @@
 		278810112A5C5D9F00B60975 /* PiFinance */ = {
 			isa = PBXGroup;
 			children = (
+				275B8F2B2A5EF6AA001B1B50 /* UI */,
 				278810122A5C5D9F00B60975 /* PiFinanceApp.swift */,
 				278810142A5C5D9F00B60975 /* ContentView.swift */,
 				278810162A5C5D9F00B60975 /* Assets.xcassets */,
@@ -286,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				278810152A5C5D9F00B60975 /* ContentView.swift in Sources */,
+				275B8F302A5EF6D1001B1B50 /* DashboardView.swift in Sources */,
+				275B8F2D2A5EF6C1001B1B50 /* MainScreenView.swift in Sources */,
 				278810132A5C5D9F00B60975 /* PiFinanceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
